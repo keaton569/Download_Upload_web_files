@@ -599,7 +599,7 @@ def uploadImages():
 
     for file in fileNamesFinal:
         count += 1
-        driver.get(f'https://portal.smartadv.com/offers/{file}/edit?tab=creatives')
+        driver.get(f'{tis a secret website}')
         time.sleep(7)
         try:
             driver.find_element_by_xpath("//*[@id='tabs-container']/div[7]/ef-offer-creative-form/form/div[1]/div[2]/ef-file-uploader/div/div[1]/div[3]/i").click()
