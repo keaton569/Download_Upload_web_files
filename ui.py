@@ -589,10 +589,10 @@ def uploadImages():
     driver.get(f'https://portal.smartadv.com/')
     username = driver.find_element_by_id("email")
     username.clear()
-    username.send_keys("kbenning@intellimaxx.net")
+    username.send_keys("{nope}")
     password = driver.find_element_by_name("password")
     password.clear()
-    password.send_keys("Keaton123")
+    password.send_keys("{also nope}")
     driver.find_element_by_xpath("//*[@id='login']/div[2]/div[2]/div/form/button").click()
     time.sleep(5)
     count = 0
